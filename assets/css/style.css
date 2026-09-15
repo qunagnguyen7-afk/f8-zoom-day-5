@@ -1,0 +1,137 @@
+body{
+    background-color: rgb(107, 109, 110);
+}
+
+.box-main {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(129, 157, 147);
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 5px;
+    
+ 
+}
+
+.menu-main{}
+    
+
+.menu-main li {
+    padding-top: 15px;
+}
+.menu-main li:hover {
+    opacity: 0.5;
+}
+
+.menu-main li a {
+    font-size: 3rem;
+    text-decoration: none;
+    display: block;
+    color: aliceblue;
+    border: 1px solid rgb(72, 61, 61);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(230, 211, 187);
+}
+
+/* nâng cấp menu  */
+
+.main-menu {
+    margin: auto;
+    max-width: 70rem;
+    min-height: 600px;
+    background-image: url(https://i.pinimg.com/originals/db/ef/7e/dbef7e5e9f5d11db75f4fee9e9ea8dee.jpg);
+
+
+
+}
+
+.nav>li>a::before{
+    padding-right: 5px;
+
+    content: "\f0d7";
+    font-family:"Font Awesome 6 Free";
+    font-weight: 900;
+    margin-left: 6px;
+    font-size:  1rem;
+}
+
+.nav > li:not(:last-child) > a {
+    border-right: 1px solid #000;
+    padding-inline: 20px;
+}
+
+nav >li::before {
+    content: "anhfjk";
+    width: 5px;
+    height: 5px;
+    background-color: #000;
+}
+ 
+
+.hearder-menu {
+    background-color: rgb(144, 144, 148);
+    height: 35px;
+    display: inline-block;
+    width: 100%;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+}
+.nav li {
+    position: relative;
+    display: inline-block;
+    /* padding: 0 20px; */
+
+
+}
+.nav>li>a {
+    color: #fff;
+
+}
+
+.nav li a {
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+    line-height: 35px;
+}
+
+.nav .sub-nav {
+    padding-left: 10px;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) ;
+} 
+
+.nav .sub-nav a {
+    width: 380px;
+    color: black;
+
+
+
+
+}
+.nav .sub-nav a:hover {
+    background-color: #9d9898;
+    color: #fff;
+} 
+
+
+
+.nav li a:hover {
+    background-color: #fff;
+    color: black;
+}
+.nav li a:active {
+    background-color: rgb(225, 217, 207);
+    transform: scale(0.95);
+}
+
+.nav li:hover .sub-nav {
+    display: block;
+}
