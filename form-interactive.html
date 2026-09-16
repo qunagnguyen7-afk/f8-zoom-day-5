@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+<h1 class="title">đăng ký tài khoản mới </h1>
+<form action="">
+    <div class="form-group ipt">
+        <label for="display-name"  class="form-label">Họ Và Tên </label>
+        <input class="form-input" type="text" id="display-name" placeholder="NguyenVanA...">
+    </div>
+     <div class="form-group  ipt">
+        <label for="display-name-tk" class="form-label">Tên Người Dùng</label>
+        <input class="form-input" type="text" id="display-name-tk" placeholder="MINIOR003...">
+    </div>
+
+     <div class="form-group  ipt">
+        <label for="password"  class="form-label">Mật Khẩu</label>
+        <input class="form-input" type="password" id="password" placeholder="">
+    </div>
+
+     <div class="form-group  ipt">
+        <label for="password-p2"  class="form-label">Nhập lại Mật Khẩu</label>
+        <input class="form-input" type="password" id="password-p2" placeholder="">
+    </div>
+
+     <div class="form-group  ipt">
+        <label for="email"  class="form-label">Email</label>
+        <input class="form-input" type="email" id="email" placeholder="abcd@gmail.com">
+    </div>
+
+     <div class="form-group  ipt">
+        <label for="phone"  class="form-label">Số Phone</label>
+        <input class="form-input" type="tel" id="phone" placeholder="012345679">
+    </div>
+
+     <div class="form-group">
+        <label class="form-label">Gender</label>
+        <label>
+            <input type="radio" name="gender" id="male" />
+            Male
+        </label>
+
+         <label>
+            <input type="radio" name="gender" id="female" />
+            Female
+        </label>
+
+         <label>
+            <input type="radio" name="gender" id="other" />
+            Other
+        </label>
+     </div>
+     <div class="form-group">
+        <label for="date-of-birth" class="form-label">
+            Date of birth
+        </label>
+        <input type="date" name="" id="date-of-birth">
+      </div>
+      <div class="form-group">
+        <label for="address" class="form-label">Address</label>
+        <input class="form-input" type="text" id="address" placeholder="Địa chỉ ...">
+      </div>
+       <div class="form-group">
+        <label for="profile-picture" class="form-label">profile picture</label>
+        <label for="profile-picture" class="from-avatar">
+            <img src="./assets/css/img/avatar-placeholder.png" 
+            alt="" 
+            class="avatar-img">
+        </label>
+        <input type="file" id="profile-picture" hidden >
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Communication Preferences</label>
+        <label>
+            <input type="checkbox" name="gender" id="male" />
+            Subscribe to Newsletter 
+        </label>
+
+         <label>
+            <input type="checkbox" name="gender" id="female" />
+            Receive Promotional EmailsB
+        </label>
+
+         <label>
+            <input type="checkbox" name="gender" id="other" />
+           Get Product Updates
+        </label>
+     </div>
+      <div class="form-group">
+        <button class="btn"> Đăng ký</button>
+      </div>
+
+</form>
+
+
+
+    
+</body>
+</html>

@@ -135,3 +135,92 @@ nav >li::before {
 .nav li:hover .sub-nav {
     display: block;
 }
+
+/* CSS FORM - INTERACTIVE  NEW */
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 400px;
+    min-height: 500px;
+    background-color: #dbd5d5;
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 2.2)
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+.ipt::after{
+    content: "*";
+    color: red;
+}
+
+.btn:active{
+    background-color: #9d9898;
+    transform: scale(0.95);
+}
+
+.form-label {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.form-input {
+    width: 60%;
+    margin-top: 5px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    height: 25px;
+
+}
+
+.from-avatar {
+
+    display: block ;
+    margin-bottom: 20px ;
+}
+
+.avatar-img {
+    border: 2px solid gray;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.btn {
+
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 5px;
+
+
+}
+.btn:hover {
+    opacity: 0.6;
+}
+
+input:focus{
+    border-color:blue;
+    outline: none;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+input:focus-within {
+    background-color: rgb(152, 162, 158);
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+
+}
